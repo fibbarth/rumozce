@@ -1,11 +1,11 @@
 <?php 
 class FConfig
 {
-	private $dbUser    = 'root';
-	private $dbPass    = 'nicole2904';
+	private $dbUser    = '';
+	private $dbPass    = '';
 	private $dbHost    = 'localhost';
 	private $base_dir  = '/var/www/rumo/';
-	private $base	   = 'http://127.0.1.1/rumo/';
+	private $base	   = '';
 	private $email     = 'fibbarth@gmail.com';
 	
 	public function get( $name ){
