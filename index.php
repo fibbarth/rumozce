@@ -1,6 +1,6 @@
 <?php
 	// Show errors
-    error_reporting(E_ALL);
+    error_reporting(~E_NOTICE);
     ini_set('display_errors','1');
     
     // Definition for avoid access direct
@@ -9,5 +9,4 @@
  	require_once 'configuration.php';
 	require_once 'functions.php';
  	
- 	$doc = FDocument::getConfig();
- 	echo $doc->get('dbUser');
+ 	FApplication::initialise();
