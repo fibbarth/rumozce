@@ -1,11 +1,15 @@
 <?php
 class FConfig
 {
-	private $dbUser    = 'root';
-	private $dbPass    = 'nicole2904';
+	private $dbUser    = '';
+	private $dbPass    = '';
 	private $dbHost    = 'localhost';
 	private $base_dir  = '/var/www/rumo/';
+<<<<<<< HEAD
 	private $base	    = 'http://127.0.1.1/rumo/';
+=======
+	private $base	   = '';
+>>>>>>> branch 'master' of https://github.com/fibbarth/rumozce.git
 	private $email     = 'fibbarth@gmail.com';
 	private $template  = 'bootstrap';
 	private $title	    = 'Rumo a certificação PHP';
